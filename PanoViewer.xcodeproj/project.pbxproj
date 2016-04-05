@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04286E0B7BD041634C1CAEB6 /* libPods-PanoViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D59E1233854B07BCE90F79 /* libPods-PanoViewer.a */; };
+		E987A1321CB433D300F6D819 /* PanoSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E987A1311CB433D300F6D819 /* PanoSelectTableViewController.m */; };
+		E987A13F1CB439EE00F6D819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E987A13E1CB439EE00F6D819 /* ViewController.m */; };
+		E987A1431CB43DB300F6D819 /* andes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E987A1401CB43DB300F6D819 /* andes.jpg */; };
+		E987A1441CB43DB300F6D819 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E987A1411CB43DB300F6D819 /* mountain.jpg */; };
+		E987A1451CB43DB300F6D819 /* townhall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E987A1421CB43DB300F6D819 /* townhall.jpg */; };
 		E9D320811CB4321A000F1EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D320801CB4321A000F1EAC /* main.m */; };
 		E9D320841CB4321A000F1EAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D320831CB4321A000F1EAC /* AppDelegate.m */; };
-		E9D320871CB4321A000F1EAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D320861CB4321A000F1EAC /* ViewController.m */; };
 		E9D3208A1CB4321A000F1EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D320881CB4321A000F1EAC /* Main.storyboard */; };
 		E9D3208C1CB4321A000F1EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D3208B1CB4321A000F1EAC /* Assets.xcassets */; };
 		E9D3208F1CB4321A000F1EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3208D1CB4321A000F1EAC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40D4B731B1ECDBE22A500773 /* Pods-PanoViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanoViewer/Pods-PanoViewer.release.xcconfig"; sourceTree = "<group>"; };
+		97D59E1233854B07BCE90F79 /* libPods-PanoViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PanoViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C3D23624B6AD8727545118 /* Pods-PanoViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanoViewer/Pods-PanoViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		E987A1301CB433D300F6D819 /* PanoSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoSelectTableViewController.h; path = ../PanoSelectTableViewController.h; sourceTree = "<group>"; };
+		E987A1311CB433D300F6D819 /* PanoSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanoSelectTableViewController.m; path = ../PanoSelectTableViewController.m; sourceTree = "<group>"; };
+		E987A13D1CB439EE00F6D819 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		E987A13E1CB439EE00F6D819 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		E987A1401CB43DB300F6D819 /* andes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = andes.jpg; sourceTree = "<group>"; };
+		E987A1411CB43DB300F6D819 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
+		E987A1421CB43DB300F6D819 /* townhall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = townhall.jpg; sourceTree = "<group>"; };
 		E9D3207C1CB4321A000F1EAC /* PanoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D320801CB4321A000F1EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9D320821CB4321A000F1EAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9D320831CB4321A000F1EAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9D320851CB4321A000F1EAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E9D320861CB4321A000F1EAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E9D320891CB4321A000F1EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9D3208B1CB4321A000F1EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D3208E1CB4321A000F1EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04286E0B7BD041634C1CAEB6 /* libPods-PanoViewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D61B40844A83C538EC30C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D59E1233854B07BCE90F79 /* libPods-PanoViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0A998B2DB0ECA4F442B418D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3D23624B6AD8727545118 /* Pods-PanoViewer.debug.xcconfig */,
+				40D4B731B1ECDBE22A500773 /* Pods-PanoViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9D320731CB4321A000F1EAC = {
 			isa = PBXGroup;
 			children = (
 				E9D3207E1CB4321A000F1EAC /* PanoViewer */,
 				E9D3207D1CB4321A000F1EAC /* Products */,
+				B0A998B2DB0ECA4F442B418D /* Pods */,
+				9D61B40844A83C538EC30C6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +91,15 @@
 		E9D3207E1CB4321A000F1EAC /* PanoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				E987A1401CB43DB300F6D819 /* andes.jpg */,
+				E987A1411CB43DB300F6D819 /* mountain.jpg */,
+				E987A1421CB43DB300F6D819 /* townhall.jpg */,
+				E987A13D1CB439EE00F6D819 /* ViewController.h */,
+				E987A13E1CB439EE00F6D819 /* ViewController.m */,
+				E987A1301CB433D300F6D819 /* PanoSelectTableViewController.h */,
+				E987A1311CB433D300F6D819 /* PanoSelectTableViewController.m */,
 				E9D320821CB4321A000F1EAC /* AppDelegate.h */,
 				E9D320831CB4321A000F1EAC /* AppDelegate.m */,
-				E9D320851CB4321A000F1EAC /* ViewController.h */,
-				E9D320861CB4321A000F1EAC /* ViewController.m */,
 				E9D320881CB4321A000F1EAC /* Main.storyboard */,
 				E9D3208B1CB4321A000F1EAC /* Assets.xcassets */,
 				E9D3208D1CB4321A000F1EAC /* LaunchScreen.storyboard */,
@@ -86,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D320931CB4321A000F1EAC /* Build configuration list for PBXNativeTarget "PanoViewer" */;
 			buildPhases = (
+				760D0BC791CF1FEFE9890B8C /* Check Pods Manifest.lock */,
 				E9D320781CB4321A000F1EAC /* Sources */,
 				E9D320791CB4321A000F1EAC /* Frameworks */,
 				E9D3207A1CB4321A000F1EAC /* Resources */,
+				E97111C25173C2A1D8CD62F6 /* Embed Pods Frameworks */,
+				C79B04848E1A22DB4F9728C4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +177,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E987A1451CB43DB300F6D819 /* townhall.jpg in Resources */,
 				E9D3208F1CB4321A000F1EAC /* LaunchScreen.storyboard in Resources */,
+				E987A1441CB43DB300F6D819 /* mountain.jpg in Resources */,
 				E9D3208C1CB4321A000F1EAC /* Assets.xcassets in Resources */,
 				E9D3208A1CB4321A000F1EAC /* Main.storyboard in Resources */,
+				E987A1431CB43DB300F6D819 /* andes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		760D0BC791CF1FEFE9890B8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79B04848E1A22DB4F9728C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoViewer/Pods-PanoViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97111C25173C2A1D8CD62F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoViewer/Pods-PanoViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9D320781CB4321A000F1EAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D320871CB4321A000F1EAC /* ViewController.m in Sources */,
 				E9D320841CB4321A000F1EAC /* AppDelegate.m in Sources */,
 				E9D320811CB4321A000F1EAC /* main.m in Sources */,
+				E987A13F1CB439EE00F6D819 /* ViewController.m in Sources */,
+				E987A1321CB433D300F6D819 /* PanoSelectTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +352,10 @@
 		};
 		E9D320941CB4321A000F1EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C3D23624B6AD8727545118 /* Pods-PanoViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PanoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeLab.PanoViewer;
@@ -270,8 +365,10 @@
 		};
 		E9D320951CB4321A000F1EAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D4B731B1ECDBE22A500773 /* Pods-PanoViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PanoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CodeLab.PanoViewer;
@@ -298,6 +395,7 @@
 				E9D320951CB4321A000F1EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
