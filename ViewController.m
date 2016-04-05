@@ -46,13 +46,6 @@
     
 }
 
-- (void)setFrameForView:(UIView *)view belowView:(UIView *)topView margin:(CGFloat)margin {
-    CGSize size =
-    [view sizeThatFits:CGSizeMake(CGRectGetWidth(self.view.bounds) - 2 * kMargin, CGFLOAT_MAX)];
-    view.frame = CGRectMake(kMargin, CGRectGetMaxY(topView.frame) + margin, size.width, size.height);
-}
-
-
 
 
 @end
